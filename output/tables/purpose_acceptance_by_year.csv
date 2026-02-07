@@ -1,0 +1,10 @@
+YEAR,variable,label,acceptance_rate
+2010,X402,Vacation (Luxury),0.13937807010503783
+2010,X403,Living expenses (Necessity),0.5062720512236905
+2010,X405,Car purchase (Durable/necessary),0.7687009261646903
+2016,X402,Vacation (Luxury),0.10314003084531703
+2016,X403,Living expenses (Necessity),0.5662628427805573
+2016,X405,Car purchase (Durable/necessary),0.763499964445966
+2022,X402,Vacation (Luxury),0.13018754326742704
+2022,X403,Living expenses (Necessity),0.6307102576629925
+2022,X405,Car purchase (Durable/necessary),0.7571413016731712

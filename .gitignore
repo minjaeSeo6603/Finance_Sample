@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+
+# Quarto/LaTeX intermediates
+code/r/*.aux
+code/r/*.fdb_latexmk
+code/r/*.fls
+code/r/*.log
+code/r/*.out
+code/r/*.synctex.gz
+code/r/*.tex
+
+# Rendered PDFs in source folder (keep final submission in output/reports)
+code/r/*.pdf
+
+# Generated local dataset (GitHub hard limit is 100MB per file)
+data/clean/cleaned_scf_data.csv
+
+/.quarto/

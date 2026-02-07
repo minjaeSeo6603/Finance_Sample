@@ -1,30 +1,3 @@
-"""
-================================================================================
-SCF Data Cleaning and Preparation Script
-================================================================================
-Author: Seo, Minjae
-Date: January 2025
-Purpose: Clean and prepare Survey of Consumer Finances data for analysis
-
-This script performs the following:
-1. Load and validate raw data from 2010, 2016, 2022 SCF waves
-2. Check data quality (missing values, variable ranges, duplicates)
-3. Apply inflation adjustment to monetary variables
-4. Handle outliers via winsorization
-5. Create derived variables and categorical encodings
-6. Merge with supplementary opinion data
-7. Construct proper survey weights
-8. Export cleaned dataset
-
-Usage:
-    python data_cleaning.py
-
-Output:
-    - cleaned_scf_data.csv: Main analysis dataset
-    - output/reports/data_quality_report.txt: Data quality diagnostics
-================================================================================
-"""
-
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -752,3 +725,4 @@ def main():
 
 if __name__ == "__main__":
     cleaned_data = main()
+
